@@ -1,0 +1,90 @@
+.sidebar {
+    border: 1px solid rgba(175, 175, 175, 0.28);
+    padding: 0;
+}
+
+.menuTitle h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuTitle .site-title {
+    margin-left: 10px;
+}
+
+.menu-section p {
+    font-weight: bold;
+}
+
+.nav .menuBtn {
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav .menuBtn li a {
+    display: flex;
+    align-items: center;
+}
+
+.nav .menuBtn li i {
+    margin-right: 10px;
+}
+
+.logoutBtn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBtn li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.menuBtn {
+    font-size: 18px;
+    display: block;
+    color: black;
+    padding-left: 0;
+}
+
+.menuBtn a {
+    color: black;
+    text-decoration: none;
+}
+
+.menuBtn li:hover {
+    background-color: rgba(162, 178, 255, 0.15);
+    border-right: 3px solid rgba(0, 41, 255, 0.92);
+}
+
+.menu-section h4 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.hidden-row {
+    display: none;
+}
+
+.show-row {
+    display: table-row;
+}
+
+.form-group input {
+    padding-right: 85px;
+}
+
+.btn-container button {
+    width: 32%;
+}
+
+.pale-red-bg {
+    background-color: #ffcccc;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lbeaudln/gestionnaire",
+  "description": "Gestionnaire pour le client lbeaudln, gestionnaire de clients.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Lbeaudln\\Gestionnaire\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Antoine Langevin",
+      "email": "antoinelangevin999@gmail.com"
+    }
+  ],
+  "require": {
+    "twilio/sdk": "^7.14",
+    "ext-pdo": "*"
+  }
+}

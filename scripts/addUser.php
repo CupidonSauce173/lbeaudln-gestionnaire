@@ -8,8 +8,8 @@ class DBController
     {
         // Directly using database credentials
         $host = 'localhost';
-        $username = 'lbeaudin-u';
-        $password = 'GM$-t)(V4kPLOWASEMG)$%I*GHJ#($$W$()_B*JM#W$ofk';
+        $username = 'db';
+        $password = 'password';
         $database = 'lbeaudin';
         $port = 3306;
 
